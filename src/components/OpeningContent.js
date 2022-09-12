@@ -29,6 +29,7 @@ export default function OpeningContent() {
           <h1>Images</h1>
         </div>
       </div>
+      <hr className='opening_content_line'></hr>
     </>
   )
 }
