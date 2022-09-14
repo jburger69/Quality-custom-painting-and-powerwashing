@@ -12,9 +12,9 @@ export default function AboutUs() {
             We offer all phases of painting and take great pride in our work. We
             aim to please all of our customers to their perception of quality.
         </h3>
-        <h1>Don't Wait! Call us for a free estimate today. 570-269-7523</h1>
-        <Button variant="contained">Email Us</Button>
-        <h4 className='footer_name'>@2022 Quality Custom Painting and Power Washing incorported by Chad Elliot Weiss</h4>
+        <h2 className='aboutus_text_two'>Don't Wait! Call us for a free estimate today. 570-269-7523</h2>
+        <Button style={{margin: '0 auto', display: "flex", }} variant="contained">Email Us</Button>
+        <h4 className='footer_name'>&copy; 2022 Quality Custom Painting and Power Washing incorported by Chad Elliot Weiss</h4>
     </div>
   )
 }
