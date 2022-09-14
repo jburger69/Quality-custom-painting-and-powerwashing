@@ -29,7 +29,7 @@ export default function ClientGallery() {
     <>
         <h1>Client Gallery</h1>
         <div className='client_gallery_images'>
-            <ImageList sx={{ width: 1000, height: 1000 }} cols={4} rowHeight={300}>
+            <ImageList sx={{ width: 1000, height: 1000 }} variant="quilted" cols={4} rowHeight={300}>
                 {itemData.map((item) => (
                 <ImageListItem key={item.img}>
                     <img
@@ -42,6 +42,7 @@ export default function ClientGallery() {
                 ))}
             </ImageList>
         </div>
+        <hr className='opening_content_line'></hr>
     </>
   )
 }
